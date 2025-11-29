@@ -1,5 +1,5 @@
-def hello():
-    return "Hello from CI/CD!"
+from app import hello
 
-if __name__ == "__main__":
-    print(hello())
+def test_hello():
+    assert hello() == "Hello from CI/CD!"
+
