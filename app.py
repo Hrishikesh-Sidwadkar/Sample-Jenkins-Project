@@ -1,4 +1,5 @@
-my-ci-cd-app/
-├── app.py
-├── requirements.txt
-└── test_app.py
+def hello():
+    return "Hello from CI/CD!"
+
+if __name__ == "__main__":
+    print(hello())
